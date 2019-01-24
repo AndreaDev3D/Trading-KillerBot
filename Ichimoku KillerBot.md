@@ -1,34 +1,34 @@
 # LOGIC
-1. se NoPosition:
-	1. Long:
-		1. Se (Low > (SpanA e SpanB)) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
-		1. Se (Tenkan > kijun) and both > (spanA > spanB) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
-	1. Short:
+* se NoPosition:
+	* Long:
+		* Se (Low > (SpanA e SpanB)) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
+		* Se (Tenkan > kijun) and both > (spanA > spanB) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
+	* Short:
 		1. Se (High < (SpanA e SpanB)) and (chiku < di (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
 		1. Se (Tenkan < kijun) and both < (spanA and spanB) and (chiku < (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
  
-1. se Long:
-	1. Close
-		1. TenkanClose = Tenkan > high and ROE
-		1. KijunClose  = Kijun  > high and ROE
-		1. ChikouClose = Chikou > low and Chikou < high and ROE
-		1. ProfitClose  = Position >= ROE
-	1. StopLoss
-		1. TenkanStop = Tenkan > high
-		1. KijunStop  = Kijun  > high
-		1. KumoStop   = SpanA  > high and SpanB > high
+* se Long:
+	* Close
+		* TenkanClose = Tenkan > high and ROE
+		* KijunClose  = Kijun  > high and ROE
+		* ChikouClose = Chikou > low and Chikou < high and ROE
+		* ProfitClose = Position >= ROE
+	* StopLoss
+		* TenkanStop = Tenkan > high
+		* KijunStop  = Kijun  > high
+		* KumoStop   = SpanA  > high and SpanB > high
  
-1. se Short:
-	1. Close
-		1. TenkanClose = Tenkan < low and ROE
-		1. KijunClose  = Kijun  < low and ROE
-		1. ChikouClose = Chikou > low and Chikou < high and ROE
-		1. ProfitClose  = Position >= ROE
+* se Short:
+	* Close
+		* TenkanClose = Tenkan < low and ROE
+		* KijunClose  = Kijun  < low and ROE
+		* ChikouClose = Chikou > low and Chikou < high and ROE
+		* ProfitClose = Position >= ROE
 -4.ProfitClose  = Position >= ROE
-	1. StopLoss
-		1. TenkanStop = Tenkan < low
-		1. KijunStop  = Kijun  < low
-		1. KumoStop   = SpanA  < low and SpanB < low 
+	* StopLoss
+		* TenkanStop = Tenkan < low
+		* KijunStop  = Kijun  < low
+		* KumoStop   = SpanA  < low and SpanB < low 
   	
 
 # Enum
