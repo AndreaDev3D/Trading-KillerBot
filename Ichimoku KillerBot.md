@@ -1,21 +1,22 @@
 # LOGIC
-1. Long:
- 1. Se (Low > (SpanA e SpanB)) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
- 1. Se (Tenkan > kijun) and both > (spanA > spanB) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
-1. Short:
- 1. Se (High < (SpanA e SpanB)) and (chiku < di (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
- 1. Se (Tenkan < kijun) and both < (spanA and spanB) and (chiku < (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
+1. se NoPosition:
+	1. Long:
+		1. Se (Low > (SpanA e SpanB)) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
+		1. Se (Tenkan > kijun) and both > (spanA > spanB) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
+	1. Short:
+		1. Se (High < (SpanA e SpanB)) and (chiku < di (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
+		1. Se (Tenkan < kijun) and both < (spanA and spanB) and (chiku < (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
  
 1. se Long:
- 1. Close
- 1. -1.TenkanClose = Tenkan > high and ROE
- 1. -2.KijunClose  = Kijun  > high and ROE
- 1. -3.ChikouClose = Chikou > low and Chikou < high and ROE
- 1. -4.ProfitClose  = Position >= ROE
-1. StopLoss
- 1. -1.TenkanStop = Tenkan > high
- 1. -2.KijunStop  = Kijun  > high
- 1. -3.KumoStop   = SpanA  > high and SpanB > high
+	1. Close
+		1. -1.TenkanClose = Tenkan > high and ROE
+		1. -2.KijunClose  = Kijun  > high and ROE
+		1. -3.ChikouClose = Chikou > low and Chikou < high and ROE
+		1. -4.ProfitClose  = Position >= ROE
+	1. StopLoss
+		1. -1.TenkanStop = Tenkan > high
+		1. -2.KijunStop  = Kijun  > high
+		1. -3.KumoStop   = SpanA  > high and SpanB > high
  
 2.se Short:
 Close
