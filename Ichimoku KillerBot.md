@@ -9,39 +9,40 @@
  
 1. se Long:
 	1. Close
-		1. -1.TenkanClose = Tenkan > high and ROE
-		1. -2.KijunClose  = Kijun  > high and ROE
-		1. -3.ChikouClose = Chikou > low and Chikou < high and ROE
-		1. -4.ProfitClose  = Position >= ROE
+		1. TenkanClose = Tenkan > high and ROE
+		1. KijunClose  = Kijun  > high and ROE
+		1. ChikouClose = Chikou > low and Chikou < high and ROE
+		1. ProfitClose  = Position >= ROE
 	1. StopLoss
-		1. -1.TenkanStop = Tenkan > high
-		1. -2.KijunStop  = Kijun  > high
-		1. -3.KumoStop   = SpanA  > high and SpanB > high
+		1. TenkanStop = Tenkan > high
+		1. KijunStop  = Kijun  > high
+		1. KumoStop   = SpanA  > high and SpanB > high
  
 1. se Short:
 	1. Close
-		1. -TenkanClose = Tenkan < low and ROE
-		1. -KijunClose  = Kijun  < low and ROE
-		1. -ChikouClose = Chikou > low and Chikou < high and ROE
+		1. TenkanClose = Tenkan < low and ROE
+		1. KijunClose  = Kijun  < low and ROE
+		1. ChikouClose = Chikou > low and Chikou < high and ROE
+		1. ProfitClose  = Position >= ROE
 -4.ProfitClose  = Position >= ROE
 	1. StopLoss
-		1. -TenkanStop = Tenkan < low
-		1. -KijunStop  = Kijun  < low
-		1. -KumoStop   = SpanA  < low and SpanB < low 
+		1. TenkanStop = Tenkan < low
+		1. KijunStop  = Kijun  < low
+		1. KumoStop   = SpanA  < low and SpanB < low 
   	
 
 # Enum
-1. ClosingType
-	1. TenkanClose
-	1. KijunClose 
-	1. ChikouClose
-	1. ProfitClose
+* ClosingType
+	* TenkanClose
+	* KijunClose 
+	* ChikouClose
+	* ProfitClose
 
-1. StopLossType
-	1. TenkanClose
-	1. KijunClose 
-	1. ChikouClose
-	1. ProfitClose
+* StopLossType
+	* TenkanClose
+	* KijunClose 
+	* ChikouClose
+	* ProfitClose
 	
 # LOTS
 A lot is the minimum quantity of a security that may be traded.
