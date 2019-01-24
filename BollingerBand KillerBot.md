@@ -35,7 +35,7 @@
 
 # PROPERTY
 Property | Meaning | Default
------------- | -------------
+------------ | ------------- | -------------
 OnlySignal | Content | true
 TradingLot | Amount di Standard lot da investire | 0.01
 MinProfitInPips | Amount min di pips per chiudere la posizione in positivo | 300
