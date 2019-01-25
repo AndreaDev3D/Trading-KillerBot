@@ -33,6 +33,15 @@
 		* KumoStop   = SpanA  < low and SpanB < low 
   	
 
+# PROPERTY
+Property | Meaning | Default
+------------ | ------------- | -------------
+OnlySignal | Content | true
+TradingLot | Amount di Standard lot da investire | 0.01
+MinProfitInPips | Amount min di pips per chiudere la posizione in positivo | 300
+StopLossInPips | Amount min di pips per chiudere la posizione in negativo | 250
+NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  | true
+
 # Enum
 * ClosingType
 	* TenkanClose
