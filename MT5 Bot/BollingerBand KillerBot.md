@@ -1,38 +1,23 @@
 >[HOME](https://github.com/AndreaDev3D/Trading-KillerBot)
 
 # LOGIC
-* se NoPosition:
+* if NoPosition:
 	* Long:
-		* Se (Low > (SpanA e SpanB)) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
-		* Se (Tenkan > kijun) and both > (spanA > spanB) and (chiku > (SpanAPast e SpanBPast)) and (SpanAFuture > SpanBFuture)
+		* if(Price(1).close > LoweBand(1) && Price(2).low < LoweBand(2) && rsiBand <= RSI_Bottom)
 	* Short:
-		1. Se (High < (SpanA e SpanB)) and (chiku < di (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
-		1. Se (Tenkan < kijun) and both < (spanA and spanB) and (chiku < (SpanAPast e SpanBPast)) and (SpanAFuture < SpanBFuture)
- 
-* se Long:
+		* if(Price(1).close < UpperBand(1) && Price(2).high > UpperBand(2) && rsiBand >= RSI_Top) 
+* if Long:
 	* Close
-		* TenkanClose = Tenkan > high and ROE
-		* KijunClose  = Kijun  > high and ROE
-		* ChikouClose = Chikou > low and Chikou < high and ROE
-		* ProfitClose = Position >= ROE
+		* if(Price(2).high > UpperBand(2) && Price(1).open < UpperBand(1) && isMinProfitInPips)
 	* StopLoss
-		* TenkanStop = Tenkan > high
-		* KijunStop  = Kijun  > high
-		* KumoStop   = SpanA  > high and SpanB > high
+		* if(Price(2).high < LoweBand(2) && Price(2).low < LoweBand(2) && Price(1).high < LoweBand(1) && Price(1).low < LoweBand(1) || isStopLoss)
  
-* se Short:
+* if Short:
 	* Close
-		* TenkanClose = Tenkan < low and ROE
-		* KijunClose  = Kijun  < low and ROE
-		* ChikouClose = Chikou > low and Chikou < high and ROE
-		* ProfitClose = Position >= ROE
--4.ProfitClose  = Position >= ROE
+		* if(Price(1).close > LoweBand(1) && Price(2).low < LoweBand(2) && isMinProfitInPips)
 	* StopLoss
-		* TenkanStop = Tenkan < low
-		* KijunStop  = Kijun  < low
-		* KumoStop   = SpanA  < low and SpanB < low 
-		
-
+		* if(Price(2).high > UpperBand(2) && Price(2).low > UpperBand(2) && Price(1).high > UpperBand(1) && Price(1).low > UpperBand(1)|| isStopLossInPips)
+	
 # PROPERTY
 Property | Meaning | Default
 ------------ | ------------- | -------------

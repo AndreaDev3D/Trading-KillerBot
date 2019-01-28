@@ -1,5 +1,5 @@
 # TRADING KILLER BOT
-A Bot Collection for different platform join our telegram group [NGuru Trading Group](https://te.me/nGuruTrading).
+A Bot Collection for different platform, join our telegram group [NGuru Trading Group](https://t.me/nGuruTrading).
 
 # BOT LIST
 Platform | Bot 
