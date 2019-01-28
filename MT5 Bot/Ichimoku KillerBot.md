@@ -54,6 +54,9 @@ NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  |
 	* ChikouClose
 	* ProfitClose
 
+# HOW TO INSTALL
+WIP
+
 # DOWNLOAD
 >[Ichimoku KillerBot.ex5)](https://github.com/AndreaDev3D/Trading-KillerBot/raw/master/MT5%20Bot/Ichimoku%20KillerBot.ex5)
 

@@ -42,6 +42,9 @@ MinProfitInPips | Amount min di pips per chiudere la posizione in positivo | 300
 StopLossInPips | Amount min di pips per chiudere la posizione in negativo | 250
 NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  | true
 
+# HOW TO INSTALL
+WIP
+
 # DOWNLOAD
 >[BollingerBand KillerBot.ex5)](https://github.com/AndreaDev3D/Trading-KillerBot/raw/master/MT5%20Bot/BollingerBand%20KillerBot.ex5)
 
