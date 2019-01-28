@@ -1,4 +1,4 @@
-# TRADDING KILLER BOT
+# TRADING KILLER BOT
 A Bot Collection for different platform .
 
 # BOT LIST
@@ -11,7 +11,8 @@ MetaTrader5 | [Ichimoku KillerBot](https://github.com/AndreaDev3D/Trading-Killer
 MetaTrader5 | [BollingerBand KillerBot](https://github.com/AndreaDev3D/Trading-KillerBot/blob/master/MT5%20Bot/BollingerBand%20KillerBot.md)
 
 # HOW TO INSTALL
-is on the to do list
+###Install Bot on cTrader
+###Install Bot on MetaTrader5
 
 Quote Utili:
 
@@ -19,4 +20,4 @@ Quote Utili:
 
 > Vendi e pentiti.
 
-##### disclaimere : This Bot is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!
+##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!

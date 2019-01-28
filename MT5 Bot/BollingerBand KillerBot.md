@@ -36,8 +36,13 @@
 # PROPERTY
 Property | Meaning | Default
 ------------ | ------------- | -------------
-OnlySignal | Content | true
+OnlySignal | Send only signal and NO POSITION will be opened | true
 TradingLot | Amount di Standard lot da investire | 0.01
 MinProfitInPips | Amount min di pips per chiudere la posizione in positivo | 300
 StopLossInPips | Amount min di pips per chiudere la posizione in negativo | 250
 NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  | true
+
+# DOWNLOAD
+>[BollingerBand KillerBot.ex5)](https://github.com/AndreaDev3D/Trading-KillerBot/raw/master/MT5%20Bot/BollingerBand%20KillerBot.ex5)
+
+##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!

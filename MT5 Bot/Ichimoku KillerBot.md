@@ -32,17 +32,16 @@
 		* KijunStop  = Kijun  < low
 		* KumoStop   = SpanA  < low and SpanB < low 
   	
-
 # PROPERTY
 Property | Meaning | Default
 ------------ | ------------- | -------------
-OnlySignal | Content | true
+OnlySignal | Send only signal and NO POSITION will be opened | true
 TradingLot | Amount di Standard lot da investire | 0.01
 MinProfitInPips | Amount min di pips per chiudere la posizione in positivo | 300
 StopLossInPips | Amount min di pips per chiudere la posizione in negativo | 250
 NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  | true
 
-# Enum
+# TYPE
 * ClosingType
 	* TenkanClose
 	* KijunClose 
@@ -54,25 +53,8 @@ NotificationEnable | Se `true` il bot invia aggiornamenti su posizioni e deal  |
 	* KijunClose 
 	* ChikouClose
 	* ProfitClose
-	
-# LOTS
-A lot is the minimum quantity of a security that may be traded.
-EURUSD 0.01 standard lots is 1% of 100,000 or 1000 EUR
 
-TradingLotPercentage = 0.01
-AccountBaseCurrency = EUR 
-LotValue = 100,000 EUR
-CurrencyPair = [EUR]/USD 
-InvestmentperTrade in CurrencyPair =  TradingLotPercentage * 100,000 EUR = 1000 EUR
-InvestmentperTrade =  (0.01*100)/100 * 100,000 EUR
+# DOWNLOAD
+>[Ichimoku KillerBot.ex5)](https://github.com/AndreaDev3D/Trading-KillerBot/raw/master/MT5%20Bot/Ichimoku%20KillerBot.ex5)
 
-# PIPS
-A pip is the smallest amount by which a currency quote can change.
-PipValue = 0.0001 
-AccountBaseCurrency = EUR 
-CurrencyPair = EUR/USD 
-ExchangeRate = 1.08962 (EUR/USD) 
-LotSize = 1 Lot (100'000 EUR(AccountBaseCurrency)) 
-
-PipValue = PipValue / ExchangeRate * LotSize 
-PipValue = (0.0001 / 1.08962) * 100000 = €9.18
+##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!
