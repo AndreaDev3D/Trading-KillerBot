@@ -1,0 +1,9 @@
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\bin\Debug\Ichimoku KillerBot.dll
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\bin\Debug\Ichimoku KillerBot.pdb
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\bin\Debug\cAlgo.API.dll
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\bin\Debug\cAlgo.API.xml
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\obj\Debug\Ichimoku KillerBot.csprojAssemblyReference.cache
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\obj\Debug\Ichimoku KillerBot.csproj.CoreCompileInputs.cache
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\obj\Debug\Ichimoku KillerBot.csproj.CopyComplete
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\obj\Debug\Ichimoku KillerBot.dll
+C:\Users\AndreaDev\Documents\cAlgo\Sources\Robots\Ichimoku KillerBot\Ichimoku KillerBot\obj\Debug\Ichimoku KillerBot.pdb
