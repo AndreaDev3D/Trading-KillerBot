@@ -8,4 +8,10 @@ Ichimoku KillerBot | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/wik
 Data Exporter | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/wiki/Data-ExporterBot)
 Telegram Notification | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/wiki/Telegram-Notification)
 
+
+# INDICATOR LIST
+Indicator | Instruction 
+------------ | -------------
+Colorize Ichimoku KillerBot | [Wiki]()
+
 ##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!
