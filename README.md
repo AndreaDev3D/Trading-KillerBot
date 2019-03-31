@@ -10,7 +10,7 @@ Telegram Notification | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/
 
 
 # INDICATOR LIST
-Indicator | Instruction 
+Indicator | Link 
 ------------ | -------------
 Colorize ADX HeikinAshi | [Download]()
 Colorize ADX HullMovingAverage | [Download]()
