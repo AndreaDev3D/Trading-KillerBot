@@ -12,6 +12,16 @@ Telegram Notification | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/
 # INDICATOR LIST
 Indicator | Instruction 
 ------------ | -------------
-Colorize Ichimoku KillerBot | [Wiki]()
+Colorize ADX HeikinAshi | [Download]()
+Colorize ADX HullMovingAverage | [Download]()
+Colorize ADX R | [Download]()
+Colorize ADX | [Download]()
+Colorize ATR | [Download]()
+Colorize DoubleTF | [Download]()
+Colorize HeikinAshi Smoothed | [Download]()
+Colorize HullMovingAverage | [Download]()
+Colorize Ichimoku KillerBot | [Download]()
+Colorize MixSymbolLine | [Download]()
+Colorize SuperTrend | [Download]()
 
 ##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!
