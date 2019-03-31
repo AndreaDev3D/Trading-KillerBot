@@ -12,6 +12,6 @@ Telegram Notification | [Wiki](https://github.com/AndreaDev3D/Trading-KillerBot/
 # INDICATOR LIST
 Indicator | Instruction 
 ------------ | -------------
-Ichimoku KillerBot | [Wiki]()
+Colorize Ichimoku KillerBot | [Wiki]()
 
 ##### disclaimere : This Bot library is intended to be used as is and does not guarantee any particular outcome or profit of any kind. Use it at your own risk!
